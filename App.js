@@ -18,8 +18,8 @@ squareContainer.addEventListener('click', function(event) {
     square.style.position = 'absolute';
     square.style.width = '50px';
     square.style.height = '50px';
-    square.style.top = mouseY - 25 + 'px'; // subtract half of height
-    square.style.left = mouseX - 25 + 'px'; // subtract half of width
+    square.style.top = mouseY - 25 + 'px';
+    square.style.left = mouseX - 25 + 'px';
     squareContainer.appendChild(square);
 });
 const randomColorBtn = document.getElementById('random-color-btn');
